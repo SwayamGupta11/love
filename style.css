@@ -29,12 +29,11 @@ body {
 
 .hearts-bg::before,
 .hearts-bg::after {
-    content: '💕 🥰 💋✦SUHUPGLU✦
-              💋 ❤️‍🔥 💅';
+    content: '💕 🥰 💋✦SUHUPGLU✦💋 ❤️‍🔥 💅';
     position: absolute;
     font-size: 2rem;
-    opacity: 0.30;
-    animation: floatHearts 9s linear infinite;
+    opacity: 0.20;
+    animation: floatHearts 5s linear infinite;
     white-space: nowrap;
     top: 100%;
     left: 10%;
@@ -47,7 +46,7 @@ body {
 }
 
 @keyframes floatHearts {
-    from { transform: translateY(0); opacity: 0.50; }
+    from { transform: translateY(0); opacity: 0.30; }
     to { transform: translateY(-110vh); opacity: 0; }
 }
 
