@@ -29,12 +29,10 @@ body {
 
 .hearts-bg::before,
 .hearts-bg::after {
-    content: '💕 💋 💅 💋 💓 💅';
-    content: '💕 💋 SUHUPGLU 💓 💅';
-    content: '💕 💋 💅 💋 💓 💅';
+    content: '💕 💋 💅 💋 💓 💅'; '💕 💋 SUHUPGLU 💓 💅'; '💕 💋 💅 💋 💓 💅';
     position: absolute;
     font-size: 2rem;
-    opacity: 0.20;
+    opacity: 0.30;
     animation: floatHearts 9s linear infinite;
     white-space: nowrap;
     top: 100%;
@@ -42,11 +40,9 @@ body {
 }
 
 .hearts-bg::after {
-    animation-delay: 1s;
+    animation-delay: 0.5s;
     left: 60%;
-    content: '💅 💋 💓 💋 💅 💋';
-    content: '💕 💋 SUHUPGLU 💓 💅';
-    content: '💕 💋 💅 💋 💓 💅';
+    content: '💅 💋 💓 💋 💅 💋'; '💕 💋 SUHUPGLU 💓 💅'; '💕 💋 💅 💋 💓 💅';
 }
 
 @keyframes floatHearts {
