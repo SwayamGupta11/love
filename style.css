@@ -29,7 +29,7 @@ body {
 
 .hearts-bg::before,
 .hearts-bg::after {
-    content: '💕 💗 💖 💝 💓';
+    content: '💕 💋 💖 💋 💓 💋';
     position: absolute;
     font-size: 1.5rem;
     opacity: 0.15;
@@ -40,13 +40,13 @@ body {
 }
 
 .hearts-bg::after {
-    animation-delay: 6s;
+    animation-delay: 3s;
     left: 60%;
-    content: '💗 💕 💓 💖 💝';
+    content: '💗 💋 💓 💋 💖 💋';
 }
 
 @keyframes floatHearts {
-    from { transform: translateY(0); opacity: 0.15; }
+    from { transform: translateY(0); opacity: 0.30; }
     to { transform: translateY(-110vh); opacity: 0; }
 }
 
@@ -192,7 +192,7 @@ h1 {
     color: #e91e8c;
     font-weight: 700;
     margin-top: 24px;
-    animation: fadeIn 1s ease 0.5s both;
+    animation: fadeIn 2s ease 0.5s both;
 }
 
 @keyframes fadeIn {
