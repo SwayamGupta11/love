@@ -29,7 +29,8 @@ body {
 
 .hearts-bg::before,
 .hearts-bg::after {
-    content: '💕 💋 💅 ✦•┈๑⋅⋯ SUHUPGLU ⋯⋅๑┈•✦ 💋 💓 💅';
+    content: '💕 🥰 💋✦SUHUPGLU✦
+              💋 ❤️‍🔥 💅';
     position: absolute;
     font-size: 2rem;
     opacity: 0.30;
@@ -42,7 +43,7 @@ body {
 .hearts-bg::after {
     animation-delay: 0.2s;
     left: 60%;
-    content: '💅 💋 💓⋆𐙚₊˚⊹♡ SUHUPGLU ⋆𐙚₊˚⊹♡ 💋 💓 💅';
+    content: '💅 🎀 💋♡SUHUPGLU♡💋 ❤️‍🔥 💅';
 }
 
 @keyframes floatHearts {
