@@ -30,6 +30,8 @@ body {
 .hearts-bg::before,
 .hearts-bg::after {
     content: '💕 💋 💅 💋 💓 💅';
+    content: '💕 💋 SUHUPGLU 💓 💅';
+    content: '💕 💋 💅 💋 💓 💅';
     position: absolute;
     font-size: 2rem;
     opacity: 0.20;
@@ -43,6 +45,8 @@ body {
     animation-delay: 1s;
     left: 60%;
     content: '💅 💋 💓 💋 💅 💋';
+    content: '💕 💋 SUHUPGLU 💓 💅';
+    content: '💕 💋 💅 💋 💓 💅';
 }
 
 @keyframes floatHearts {
