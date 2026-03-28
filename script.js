@@ -12,11 +12,9 @@ const gifStages = [
 const noMessages = [
     "No",
     "Hawww..You really clicked NO.💔",
-    "Really Suhu ?...🥺",
+    "Really Suhu ?..💔🥺",
     "But you are my Baddie👉👈",
     "Suhu Pleasee 🙏😢",
-    "Suhu really ??? 💔",
-    "Don't do this..I'll be Sad😔",
     "Last chance Suhu..! 🙏😭",
     "Hatt Pglu..Can't catch me😜"
 ]
@@ -109,8 +107,8 @@ function handleNoClick() {
     const gifIndex = Math.min(noClickCount, gifStages.length - 1)
     swapGif(gifStages[gifIndex])
 
-    // Runaway starts at click 8
-    if (noClickCount >= 8 && !runawayEnabled) {
+    // Runaway starts at click 6
+    if (noClickCount >= 6 && !runawayEnabled) {
         enableRunaway()
         runawayEnabled = true
     }
