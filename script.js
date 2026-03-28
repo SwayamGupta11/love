@@ -18,7 +18,7 @@ const noMessages = [
     "Suhu really ??? 💔",
     "Don't do this..I'll be Sad😔",
     "Last chance Suhu..! 🙏😭",
-    "You can't catch me anyway 😜"
+    "Hatt Pglu..Can't catch me😜"
 ]
 
 const yesTeasePokes = [
@@ -109,7 +109,7 @@ function handleNoClick() {
     const gifIndex = Math.min(noClickCount, gifStages.length - 1)
     swapGif(gifStages[gifIndex])
 
-    // Runaway starts at click 5
+    // Runaway starts at click 8
     if (noClickCount >= 8 && !runawayEnabled) {
         enableRunaway()
         runawayEnabled = true
